@@ -4,6 +4,7 @@ import Props from './Components/Props'
 import Welcome from './Components/Welcome'
 import PropsWithClass from './Components/PropswithClass'
 import Counter from './Components/Counter'
+import Destructuring from './Components/Destructuring'
 
 function App() {
   return (
@@ -25,8 +26,11 @@ function App() {
             <div>you can add <b>multiple elements </b>here</div>
           </PropsWithClass> {/* This is a class component with props */}
         </div>
-        <div>
+        <div className='hidden'>
           <Counter /> {/* This is a class component with state */}
+        </div>
+        <div>
+          <Destructuring name="Selva" age={23} /> {/* This is a functional component with destructuring */}
         </div>
       </div>
     </>
