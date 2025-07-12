@@ -5,6 +5,8 @@ import Welcome from './Components/Welcome'
 import PropsWithClass from './Components/PropswithClass'
 import Counter from './Components/Counter'
 import Destructuring from './Components/Destructuring'
+import FunctionClick from './Components/EventHandling/FunctionClick'
+import ClassClick from './Components/EventHandling/ClassClick'
 
 function App() {
   return (
@@ -29,8 +31,12 @@ function App() {
         <div className='hidden'>
           <Counter /> {/* This is a class component with state */}
         </div>
-        <div>
+        <div className='hidden'>
           <Destructuring name="Selva" age={23} /> {/* This is a functional component with destructuring */}
+        </div>
+        <div>
+          <FunctionClick /> {/* This is a functional component with event handling */}
+          <ClassClick /> {/* This is a class component with event handling */}
         </div>
       </div>
     </>
