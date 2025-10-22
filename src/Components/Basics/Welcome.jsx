@@ -1,5 +1,4 @@
 import React from 'react';
-import Greet from "./Greet";
 
 class Welcome extends React.Component {
   render() {
@@ -8,7 +7,6 @@ class Welcome extends React.Component {
              <div className="text-2xl">
                 come from Class Component - welcome file
             </div>
-            <Greet />
         </div>    
     )
   }
