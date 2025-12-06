@@ -21,6 +21,10 @@ const HomePage = () => {
           <h2 className='font-bold'>Event Handling</h2>
           <p>Click events for functional & class components</p>
         </Link>
+        <Link to="/method-as-prop" className="card">
+          <h2 className='font-bold'>Method as Prop</h2>
+          <p>Passing methods as props to child components</p>
+        </Link>
       </div>
     </div>
   );
