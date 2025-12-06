@@ -5,7 +5,7 @@ import Eventbinding from '../Components/EventHandling/Eventbinding'
 
 const EventPage = () => {
     return(
-         <div className='p-[20px]'>
+         <div className='p-5'>
             <h2 className='text-2xl font-bold pb-2.5 mb-3.5'> Event Handling</h2>
             <div className='text-[20px] font-bold border-b-2 pb-2.5 mb-3.5'> Click events for functional & class components</div>
 
@@ -24,7 +24,7 @@ const EventPage = () => {
                 <Eventbinding />
             </section>               
 
-            <Link to="/" className='text-white bg-[#007bff] py-[8px] px-[15px] rounded-[8px] no-underline'>
+            <Link to="/" className='text-white bg-[#007bff] py-2 px-[15px] rounded-lg no-underline'>
                 Back to Home
             </Link>
         </div>

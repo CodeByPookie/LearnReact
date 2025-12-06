@@ -4,7 +4,7 @@ import PropsWithClass from '../Components/Advanced/PropswithClass';
 
 const PropsPage = () => {
     return(
-        <div className='p-[20px]'>  
+        <div className='p-5'>  
             <h2 className='text-2xl font-bold border-b-2 pb-2.5 mb-3.5'> Functional and Class Components with Props</h2>  
             <section className='mb-[30px]'>
                     <h3 className='text-[20px] font-bold'>Functional Component Example:</h3>
@@ -25,7 +25,7 @@ const PropsPage = () => {
                 </PropsWithClass> 
            </section>       
          
-            <Link to="/" className='text-white bg-[#007bff] py-[8px] px-[15px] rounded-[8px] no-underline'>
+            <Link to="/" className='text-white bg-[#007bff] py-2 px-[15px] rounded-lg no-underline'>
                 Back to Home
             </Link>
          

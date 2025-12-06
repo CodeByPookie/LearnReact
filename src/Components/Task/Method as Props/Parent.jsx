@@ -41,7 +41,7 @@ function Parent() {
             {/* Passing Method as Prop */}
             <Child AddUser={AddUser} RemoveUser={RemoveUser} userList={userList} />   
             <div>
-                 <Link to="/" className='text-white bg-[#007bff] py-[8px] px-[15px] rounded-[8px] no-underline'>
+                 <Link to="/" className='text-white bg-[#007bff] py-2 px-[15px] rounded-lg no-underline'>
                     Back to Home
               </Link> 
             </div>
