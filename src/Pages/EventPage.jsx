@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import FunctionClick from '../Components/EventHandling/FunctionClick'
 import ClassClick from '../Components/EventHandling/ClassClick'
+import Eventbinding from '../Components/EventHandling/Eventbinding'
 
 const EventPage = () => {
     return(
@@ -16,6 +17,11 @@ const EventPage = () => {
             <section className='mb-[30px]'>
                 <h3 className='text-[20px] font-bold'>Class Component Example:</h3>
                 <ClassClick />
+            </section>     
+
+            <section className='mb-[30px]'>
+                <h3 className='text-[20px] font-bold'>Event binding in class components:</h3>
+                <Eventbinding />
             </section>               
 
             <Link to="/" className='text-white bg-[#007bff] py-[8px] px-[15px] rounded-[8px] no-underline'>
